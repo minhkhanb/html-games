@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="240px" height="151px" viewBox="0 0 240 151" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>video-symbol</title>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" fill-opacity="0.05">
+        <g id="layout/queue/list-MV" transform="translate(-45.000000, -267.000000)" fill="#000000">
+            <g id="video-symbol" transform="translate(45.000000, 267.000000)">
+                <rect id="Rectangle" x="0" y="0" width="240" height="150.123457" rx="3.95061728"></rect>
+                <path d="M107.654321,58.8577488 L107.654321,84.6403541 C107.654321,85.1351011 108.055393,85.5361728 108.55014,85.5361728 C108.711087,85.5361728 108.869061,85.4928118 109.007456,85.4106481 L130.719124,72.5206331 C131.144545,72.2680643 131.28467,71.7184444 131.032101,71.2930228 C130.95561,71.1641831 130.848024,71.0565875 130.719191,70.9800853 L109.007524,58.0874949 C108.582124,57.8348887 108.032492,57.9749654 107.779886,58.4003649 C107.697696,58.5387753 107.654321,58.696775 107.654321,58.8577488 Z" id="Fill-1"></path>
+                <circle id="Oval" cx="12.8395062" cy="138.271605" r="4.9382716"></circle>
+                <circle id="Oval-Copy" cx="27.654321" cy="138.271605" r="4.9382716"></circle>
+                <circle id="Oval-Copy-2" cx="42.4691358" cy="138.271605" r="4.9382716"></circle>
+                <rect id="Rectangle" x="8.88888889" y="126.419753" width="223.209877" height="2.96296296"></rect>
+            </g>
+        </g>
+    </g>
+</svg>

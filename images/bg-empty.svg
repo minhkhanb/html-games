@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="285" height="240" viewBox="0 0 285 240">
+    <g fill="none" fill-rule="evenodd">
+        <path d="M0 0H285V240H0z"/>
+        <g fill="#000" fill-opacity=".047">
+            <rect width="40" height="40" rx="2"/>
+            <rect width="232" height="10" x="50" y="2" rx="5"/>
+            <rect width="117" height="10" x="50" y="19" rx="5"/>
+        </g>
+        <g fill="#000" fill-opacity=".047" transform="translate(0 50)">
+            <rect width="40" height="40" rx="2"/>
+            <rect width="232" height="10" x="50" y="2" rx="5"/>
+            <rect width="117" height="10" x="50" y="19" rx="5"/>
+        </g>
+        <g fill="#000" fill-opacity=".047" transform="translate(0 100)">
+            <rect width="40" height="40" rx="2"/>
+            <rect width="232" height="10" x="50" y="2" rx="5"/>
+            <rect width="117" height="10" x="50" y="19" rx="5"/>
+        </g>
+        <g fill="#000" fill-opacity=".047" transform="translate(0 150)">
+            <rect width="40" height="40" rx="2"/>
+            <rect width="232" height="10" x="50" y="2" rx="5"/>
+            <rect width="117" height="10" x="50" y="19" rx="5"/>
+        </g>
+        <g fill="#000" fill-opacity=".047" transform="translate(0 200)">
+            <rect width="40" height="40" rx="2"/>
+            <rect width="232" height="10" x="50" y="2" rx="5"/>
+            <rect width="117" height="10" x="50" y="19" rx="5"/>
+        </g>
+    </g>
+</svg>
