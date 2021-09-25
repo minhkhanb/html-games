@@ -3422,3 +3422,102 @@ h3.title {
     display: flex !important;
   }
 }
+
+.player-controls__player-bar {
+  flex-grow: 1;
+  max-width: 40vw;
+}
+
+.player-controls__player-bar .actions {
+  display: flex;
+  flex-shrink: 0;
+  justify-content: center;
+  align-items: center;
+}
+
+.player-controls__player-bar .zm-btn.button {
+  margin: 0 7px;
+  line-height: 0;
+}
+
+.player-controls__player-bar .icon {
+  font-size: 16px;
+}
+
+.player-controls__player-bar .ic-pause-circle-outline,
+.player-controls__player-bar .ic-play-circle-outline {
+  font-size: 40px;
+}
+
+.player-controls__player-bar .ic-pause-circle-outline:hover,
+.player-controls__player-bar .ic-play-circle-outline:hover {
+  background-color: transparent;
+  color: var(--link-text-hover);
+}
+
+.player-controls__player-bar .time {
+  min-width: 45px;
+  font-size: 12px;
+  color: var(--player-text);
+  font-weight: 500;
+}
+
+.player-controls__player-bar .time.left {
+  text-align: right;
+  margin-right: 10px;
+  opacity: 0.5;
+}
+
+.player-controls__player-bar .time.right {
+  margin-left: 10px;
+}
+
+.player-controls__player-bar .zm-pie-progress {
+  padding: 7px 14px;
+}
+
+.player-controls__player-bar .zm-pie-progress .icon {
+  border: 1px solid var(--player-text);
+  border-radius: 50%;
+}
+
+.player-controls__player-bar .zm-pie-progress svg {
+  width: 34px;
+  height: 34px;
+  fill: var(--player-text);
+}
+
+.player-controls__player-bar .zm-duration-bar {
+  height: 15px;
+  width: 100%;
+  cursor: pointer;
+}
+
+.player-controls__player-bar .zm-duration-bar:hover .zm-slider-bar {
+  height: 5px;
+}
+
+.player-controls__player-bar .zm-duration-bar:hover .zm-slider-handle {
+  visibility: visible;
+  width: 12px;
+  height: 12px;
+}
+
+.player-controls__player-bar .zm-duration-bar .zm-slider-bar {
+  width: 100%;
+  height: 3px;
+}
+
+.player-controls__player-bar .zm-duration-bar .zm-slider-handle {
+  width: 10px;
+  height: 10px;
+  visibility: hidden;
+}
+
+.player-controls__player-bar .seek-btn .icon {
+  font-size: 20px;
+}
+
+.mar-b-5 {
+  margin-bottom: 5px !important;
+}
