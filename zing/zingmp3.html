@@ -11,184 +11,232 @@
     <link rel="stylesheet" href="css/screen.css" />
   </head>
   <body>
-    <div class="zm-section now-playing-bar">
-      <div class="player-controls clickable">
-        <div class="level player-controls__container">
-          <div class="player-controls-left level-left">
-            <div class="level-item is-narrow">
-              <div class="media animate">
-                <div class="media-left">
-                  <div class="thumbnail-wrapper animate">
-                    <div class="thumbnail">
-                      <figure class="image is-50x50 is-rounded">
-                        <img
-                          src="https://photo-resize-zmp3.zadn.vn/w240_r1x1_jpeg/covers/7/5/75e72f443b10783ae141d6017273bfd2_1408691066.jpg"
-                          alt=""
-                        />
-                      </figure>
-                    </div>
-                    <svg viewBox="0 0 512 512" class="note note-1">
-                      <path
-                        d="M470.38 1.51L150.41 96A32 32 0 0 0 128 126.51v261.41A139 139 0 0 0 96 384c-53 0-96 28.66-96 64s43 64 96 64 96-28.66 96-64V214.32l256-75v184.61a138.4 138.4 0 0 0-32-3.93c-53 0-96 28.66-96 64s43 64 96 64 96-28.65 96-64V32a32 32 0 0 0-41.62-30.49z"
-                      ></path>
-                    </svg>
-                    <svg viewBox="0 0 384 512" class="note note-2">
-                      <path
-                        d="M310.94 1.33l-96.53 28.51A32 32 0 0 0 192 60.34V360a148.76 148.76 0 0 0-48-8c-61.86 0-112 35.82-112 80s50.14 80 112 80 112-35.82 112-80V148.15l73-21.39a32 32 0 0 0 23-30.71V32a32 32 0 0 0-41.06-30.67z"
-                      ></path>
-                    </svg>
-                    <svg viewBox="0 0 512 512" class="note note-3">
-                      <path
-                        d="M470.38 1.51L150.41 96A32 32 0 0 0 128 126.51v261.41A139 139 0 0 0 96 384c-53 0-96 28.66-96 64s43 64 96 64 96-28.66 96-64V214.32l256-75v184.61a138.4 138.4 0 0 0-32-3.93c-53 0-96 28.66-96 64s43 64 96 64 96-28.65 96-64V32a32 32 0 0 0-41.62-30.49z"
-                      ></path>
-                    </svg>
-                    <svg viewBox="0 0 384 512" class="note note-4">
-                      <path
-                        d="M310.94 1.33l-96.53 28.51A32 32 0 0 0 192 60.34V360a148.76 148.76 0 0 0-48-8c-61.86 0-112 35.82-112 80s50.14 80 112 80 112-35.82 112-80V148.15l73-21.39a32 32 0 0 0 23-30.71V32a32 32 0 0 0-41.06-30.67z"
-                      ></path>
-                    </svg>
-                  </div>
-                </div>
-                <!-- end media-left -->
+    <div class="zm-section zm-layout has-player">
+      <aside class="zm-sidebar"></aside> <!-- zm-sidebar -->
+      <header class="zm-header"></header> <!-- zm-header -->
+      <div class="zm-box zm-mainpage"></div> <!-- zm-mainpage -->
 
-                <div class="media-content">
-                  <div class="is-mark level-left">
-                    <div class="song-info-wrapper">
-                      <span class="song-title-item">
-                        <div class="title-wrapper">
-                          <span class="item-title title">
-                            Nỗi Nhớ Mang Tên Mình (OST Cạm Bẫy - Hơi Thở Của
-                            Quỷ)
-                          </span>
-                        </div>
-                      </span>
+      <div class="zm-section now-playing-bar">
+        <div class="player-controls clickable">
+          <div class="level player-controls__container">
+            <div class="player-controls-left level-left">
+              <div class="level-item is-narrow">
+                <div class="media animate">
+                  <div class="media-left">
+                    <div class="thumbnail-wrapper animate">
+                      <div class="thumbnail">
+                        <figure class="image is-50x50 is-rounded">
+                          <img
+                            src="https://photo-resize-zmp3.zadn.vn/w240_r1x1_jpeg/covers/7/5/75e72f443b10783ae141d6017273bfd2_1408691066.jpg"
+                            alt=""
+                          />
+                        </figure>
+                      </div>
+                      <svg viewBox="0 0 512 512" class="note note-1">
+                        <path
+                          d="M470.38 1.51L150.41 96A32 32 0 0 0 128 126.51v261.41A139 139 0 0 0 96 384c-53 0-96 28.66-96 64s43 64 96 64 96-28.66 96-64V214.32l256-75v184.61a138.4 138.4 0 0 0-32-3.93c-53 0-96 28.66-96 64s43 64 96 64 96-28.65 96-64V32a32 32 0 0 0-41.62-30.49z"
+                        ></path>
+                      </svg>
+                      <svg viewBox="0 0 384 512" class="note note-2">
+                        <path
+                          d="M310.94 1.33l-96.53 28.51A32 32 0 0 0 192 60.34V360a148.76 148.76 0 0 0-48-8c-61.86 0-112 35.82-112 80s50.14 80 112 80 112-35.82 112-80V148.15l73-21.39a32 32 0 0 0 23-30.71V32a32 32 0 0 0-41.06-30.67z"
+                        ></path>
+                      </svg>
+                      <svg viewBox="0 0 512 512" class="note note-3">
+                        <path
+                          d="M470.38 1.51L150.41 96A32 32 0 0 0 128 126.51v261.41A139 139 0 0 0 96 384c-53 0-96 28.66-96 64s43 64 96 64 96-28.66 96-64V214.32l256-75v184.61a138.4 138.4 0 0 0-32-3.93c-53 0-96 28.66-96 64s43 64 96 64 96-28.65 96-64V32a32 32 0 0 0-41.62-30.49z"
+                        ></path>
+                      </svg>
+                      <svg viewBox="0 0 384 512" class="note note-4">
+                        <path
+                          d="M310.94 1.33l-96.53 28.51A32 32 0 0 0 192 60.34V360a148.76 148.76 0 0 0-48-8c-61.86 0-112 35.82-112 80s50.14 80 112 80 112-35.82 112-80V148.15l73-21.39a32 32 0 0 0 23-30.71V32a32 32 0 0 0-41.06-30.67z"
+                        ></path>
+                      </svg>
                     </div>
                   </div>
+                  <!-- end media-left -->
 
-                  <h3 class="is-one-line subtitle">
-                    <a href="#">Hoài Lâm</a>
-                  </h3>
-                </div>
-                <!-- end media-content -->
-
-                <div class="media-right">
-                  <div class="level">
-                    <div class="level-item">
-                      <span class="zm-disable-transition">
-                        <button
-                          class="
-                            zm-btn zm-tooltip-btn zm-disable-transition
-                            is-hover-circle
-                            button
-                          "
-                        >
-                          <i class="icon ic-like"></i>
-                        </button>
-                      </span>
+                  <div class="media-content">
+                    <div class="is-mark level-left">
+                      <div class="song-info-wrapper">
+                        <span class="song-title-item">
+                          <div class="title-wrapper">
+                            <span class="item-title title">
+                              Nỗi Nhớ Mang Tên Mình (OST Cạm Bẫy - Hơi Thở Của
+                              Quỷ)
+                            </span>
+                          </div>
+                        </span>
+                      </div>
                     </div>
-                    <!-- end icon-like -->
 
-                    <div class="level-item">
-                      <span id="np_menu">
-                        <button
-                          class="
-                            zm-btn zm-tooltip-btn
-                            btn-more
-                            is-hover-circle
-                            button
-                          "
-                        >
-                          <i class="icon ic-more"></i>
-                        </button>
-                      </span>
-                    </div>
-                    <!-- end icon-more -->
+                    <h3 class="is-one-line subtitle">
+                      <a href="#">Hoài Lâm</a>
+                    </h3>
                   </div>
+                  <!-- end media-content -->
+
+                  <div class="media-right">
+                    <div class="level">
+                      <div class="level-item">
+                        <span class="zm-disable-transition">
+                          <button
+                            class="
+                              zm-btn zm-tooltip-btn zm-disable-transition
+                              is-hover-circle
+                              button
+                            "
+                          >
+                            <i class="icon ic-like"></i>
+                          </button>
+                        </span>
+                      </div>
+                      <!-- end icon-like -->
+
+                      <div class="level-item">
+                        <span id="np_menu">
+                          <button
+                            class="
+                              zm-btn zm-tooltip-btn
+                              btn-more
+                              is-hover-circle
+                              button
+                            "
+                          >
+                            <i class="icon ic-more"></i>
+                          </button>
+                        </span>
+                      </div>
+                      <!-- end icon-more -->
+                    </div>
+                  </div>
+                  <!-- end media-right -->
                 </div>
-                <!-- end media-right -->
               </div>
             </div>
-          </div>
-          <!-- end player-controls-left -->
+            <!-- end player-controls-left -->
 
-          <div class="player-controls__player-bar level-center">
-            <div class="level-item">
-              <div class="actions">
-                <button class="zm-btn zm-tooltip-btn btn-shuffle is-hover-circle button">
-                  <i class="icon ic-shuffle"></i>
-                </button>
+            <div class="player-controls__player-bar level-center">
+              <div class="level-item">
+                <div class="actions">
+                  <button
+                    class="
+                      zm-btn zm-tooltip-btn
+                      btn-shuffle
+                      is-hover-circle
+                      button
+                    "
+                  >
+                    <i class="icon ic-shuffle"></i>
+                  </button>
 
-                <button class="zm-btn zm-tooltip-btn btn-pre is-hover-circle button">
-                  <i class="icon ic-pre"></i>
-                </button>
+                  <button
+                    class="zm-btn zm-tooltip-btn btn-pre is-hover-circle button"
+                  >
+                    <i class="icon ic-pre"></i>
+                  </button>
 
-                <button class="zm-btn zm-tooltip-btn btn-play button">
-                  <i class="icon ic-play-circle-outline"></i>
-                </button>
+                  <button class="zm-btn zm-tooltip-btn btn-play button">
+                    <i class="icon ic-play-circle-outline"></i>
+                  </button>
 
-                <button class="zm-btn zm-tooltip-btn btn-next is-hover-circle button">
-                  <i class="icon ic-next"></i>
-                </button>
+                  <button
+                    class="
+                      zm-btn zm-tooltip-btn
+                      btn-next
+                      is-hover-circle
+                      button
+                    "
+                  >
+                    <i class="icon ic-next"></i>
+                  </button>
 
-                <button class="zm-btn zm-tooltip-btn btn-repeat is-hover-circle is-active button">
-                  <i class="icon ic-repeat"></i>
-                </button>
-              </div>
-            </div>
-
-            <div class="level-item mar-b-5">
-              <span class="time left">03:45</span>
-              <div class="zm-duration-bar loaded">
-                <div class="zm-slider-bar">
-                  <div class="zm-slider-handle"></div>
+                  <button
+                    class="
+                      zm-btn zm-tooltip-btn
+                      btn-repeat
+                      is-hover-circle is-active
+                      button
+                    "
+                  >
+                    <i class="icon ic-repeat"></i>
+                  </button>
                 </div>
               </div>
-              <span class="time right">05:10</span>
-            </div>
-          </div> <!-- end player-controls__player -->
 
-          <div class="player-controls-right level-right">
-            <div class="level-item is-narrow">
-              <button class="zm-btn zm-tooltip-btn btn-mv is-hover-circle button" disabled>
-                <i class="icon ic-mv"></i>
-              </button>
-            </div>
-
-            <div class="level-item is-narrow">
-              <button class="zm-btn zm-tooltip-btn btn-karaoke is-hover-circle button">
-                <i class="icon ic-karaoke"></i>
-              </button>
-            </div>
-
-            <div class="level-item is-narrow">
-              <div class="zm-player-volume">
-                <button class="zm-btn zm-tooltip-btn btn-volume is-hover-circle button">
-                  <i class="icon ic-volume-mute"></i>
-                </button>
-
+              <div class="level-item mar-b-5">
+                <span class="time left">03:45</span>
                 <div class="zm-duration-bar loaded">
                   <div class="zm-slider-bar">
                     <div class="zm-slider-handle"></div>
                   </div>
                 </div>
+                <span class="time right">05:10</span>
               </div>
             </div>
+            <!-- end player-controls__player -->
 
-            <div class="level-item is-narrow">
-              <span class="divide"></span>
-            </div>
+            <div class="player-controls-right level-right">
+              <div class="level-item is-narrow">
+                <button
+                  class="zm-btn zm-tooltip-btn btn-mv is-hover-circle button"
+                  disabled
+                >
+                  <i class="icon ic-mv"></i>
+                </button>
+              </div>
 
-            <div class="level-item is-narrow">
-              <button class="zm-btn queue-expand-button button">
-                <div class="zm-btn button">
-                  <i class="icon ic-list-music"></i>
+              <div class="level-item is-narrow">
+                <button
+                  class="
+                    zm-btn zm-tooltip-btn
+                    btn-karaoke
+                    is-hover-circle
+                    button
+                  "
+                >
+                  <i class="icon ic-karaoke"></i>
+                </button>
+              </div>
+
+              <div class="level-item is-narrow">
+                <div class="zm-player-volume">
+                  <button
+                    class="
+                      zm-btn zm-tooltip-btn
+                      btn-volume
+                      is-hover-circle
+                      button
+                    "
+                  >
+                    <i class="icon ic-volume-mute"></i>
+                  </button>
+
+                  <div class="zm-duration-bar loaded">
+                    <div class="zm-slider-bar">
+                      <div class="zm-slider-handle"></div>
+                    </div>
+                  </div>
                 </div>
-              </button>
+              </div>
+
+              <div class="level-item is-narrow">
+                <span class="divide"></span>
+              </div>
+
+              <div class="level-item is-narrow">
+                <button class="zm-btn queue-expand-button button">
+                  <div class="zm-btn button">
+                    <i class="icon ic-list-music"></i>
+                  </div>
+                </button>
+              </div>
             </div>
-          </div> <!-- end player-controls-right -->
+            <!-- end player-controls-right -->
+          </div>
         </div>
+        <!-- end player-controls -->
       </div>
-      <!-- end player-controls -->
     </div>
   </body>
 </html>

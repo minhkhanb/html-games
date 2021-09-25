@@ -1,0 +1,235 @@
+* {
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+}
+
+html.touch * {
+  text-rendering: optimizeSpeed;
+}
+
+:focus {
+  outline: none;
+}
+
+* {
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+}
+
+html {
+  font-size: 16px;
+}
+
+b,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+strong {
+  font-weight: 700;
+}
+
+ol,
+p,
+ul {
+  list-style: none;
+}
+
+a {
+  cursor: pointer;
+  color: inherit;
+  font-style: normal;
+  font-stretch: normal;
+  letter-spacing: normal;
+}
+
+a,
+a.active,
+a:hover {
+  text-decoration: none;
+}
+
+a.active,
+a:hover {
+  color: var(--link-text-hover);
+}
+
+a.zm-btn:hover {
+  color: inherit;
+}
+
+svg.change-color circle,
+svg.change-color line,
+svg.change-color path,
+svg.change-color rect {
+  stroke: currentColor;
+}
+
+div,
+p {
+  word-break: break-word;
+}
+
+body input::-webkit-input-placeholder {
+  font-size: 14px;
+  text-align: left;
+  color: var(--text-placeholder) !important;
+  font-weight: 400;
+}
+
+body input::-webkit-input-placeholder,
+body input::placeholder {
+  font-size: 14px;
+  text-align: left;
+  color: var(--text-placeholder) !important;
+  font-weight: 400;
+}
+
+body input:-ms-input-placeholder {
+  font-size: 14px;
+  text-align: left;
+  color: var(--text-placeholder) !important;
+  font-weight: 400;
+}
+
+body input:-moz-input-placeholder {
+  font-size: 14px;
+  text-align: left;
+  color: var(--text-placeholder) !important;
+  font-weight: 400;
+}
+
+body textarea::-webkit-input-placeholder {
+  font-size: 14px;
+  text-align: left;
+  color: var(--text-placeholder) !important;
+  font-weight: 400;
+}
+
+body textarea::-webkit-input-placeholder,
+body textarea::placeholder {
+  font-size: 14px;
+  text-align: left;
+  color: var(--text-placeholder) !important;
+  font-weight: 400;
+}
+
+body textarea:-ms-input-placeholder {
+  font-size: 14px;
+  text-align: left;
+  color: var(--text-placeholder) !important;
+  font-weight: 400;
+}
+
+body textarea:-moz-input-placeholder {
+  font-size: 14px;
+  text-align: left;
+  color: var(--text-placeholder) !important;
+  font-weight: 400;
+}
+
+button,
+input,
+optgroup,
+select,
+textarea {
+  padding: 0;
+  border: none;
+  font: inherit;
+  color: inherit;
+  background-color: transparent;
+  word-break: normal;
+}
+
+button,
+optgroup,
+select {
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+img,
+video {
+  height: auto;
+  width: 100%;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+td,
+th {
+  padding: 0;
+}
+
+td:not([align]),
+th:not([align]) {
+  text-align: left;
+}
+
+blockquote,
+body,
+dd,
+dl,
+dt,
+fieldset,
+figure,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+hr,
+html,
+iframe,
+legend,
+li,
+ol,
+p,
+pre,
+textarea,
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: 100%;
+  font-weight: 400;
+}
+
+body ::-webkit-scrollbar {
+  width: 6px;
+}
+
+body ::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset #fff;
+  border-radius: 4px;
+}
+
+body ::-webkit-scrollbar-thumb {
+  border-radius: 4px;
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.5);
+}
+
+body .react-loading-skeleton {
+  background-color: var(--loading-bg);
+  background-image: linear-gradient(
+    90deg,
+    transparent,
+    var(--loading-bg-animation),
+    transparent
+  );
+}
