@@ -1745,3 +1745,91 @@
 .ic-12-Views:before {
   content: '\ea45';
 }
+
+.ic-80-sTV-play-miniplayer:before {
+  content: '\e909';
+}
+
+.ic-48-sTV-play:before {
+  content: '\e90a';
+}
+
+.ic-32-sTV-Lyric:before {
+  content: '\e90b';
+}
+
+.ic-32-sTV-karaoke:before {
+  content: '\e90c';
+}
+
+.ic-32-sTV-Next:before {
+  content: '\e90d';
+}
+
+.ic-32-sTV-Previous:before {
+  content: '\e90e';
+}
+
+.ic-32-sTV-shuffle_other:before {
+  content: '\e90f';
+}
+
+.ic-32-sTV-shuffle_right:before {
+  content: '\e910';
+}
+
+.ic-32-sTV-Tick:before {
+  content: '\e911';
+}
+
+.ic-32-sTV-favorite:before {
+  content: '\e912';
+}
+
+.ic-46-sTV-zingchart-selected:before {
+  content: '\e913';
+}
+
+.ic-46-sTV-home-normal:before {
+  content: '\e914';
+}
+
+.ic-46-sTV-home-selected:before {
+  content: '\e915';
+}
+
+.ic-46-sTV-my-music-normal:before {
+  content: '\e916';
+}
+
+.ic-46-sTV-my-music-selected:before {
+  content: '\e917';
+}
+
+.ic-46-sTV-radio-normal:before {
+  content: '\e918';
+}
+
+.ic-46-sTV-radio-selected:before {
+  content: '\e919';
+}
+
+.ic-46-sTV-search-normal:before {
+  content: '\e91a';
+}
+
+.ic-46-sTV-search-selected:before {
+  content: '\e91b';
+}
+
+.ic-46-sTV-setting-normal:before {
+  content: '\e91c';
+}
+
+.ic-46-sTV-setting-selected:before {
+  content: '\e91d';
+}
+
+.ic-46-sTV-zingchart-normal:before {
+  content: '\e91e';
+}

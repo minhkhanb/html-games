@@ -249,3 +249,63 @@
       rotate(45deg) rotate(-50deg);
   }
 }
+
+@-webkit-keyframes spin {
+  0% {
+      transform: rotate(0deg)
+  }
+  to {
+      transform: rotate(1turn)
+  }
+}
+
+@keyframes spin {
+  0% {
+      transform: rotate(0deg)
+  }
+  to {
+      transform: rotate(1turn)
+  }
+}
+
+@-webkit-keyframes spin-off {
+  0% {
+      transform: rotate(0deg)
+  }
+  to {
+      transform: rotate(1turn)
+  }
+}
+
+@keyframes spin-off {
+  0% {
+      transform: rotate(0deg)
+  }
+  to {
+      transform: rotate(1turn)
+  }
+}
+
+@-webkit-keyframes frameOpacity {
+  0% {
+      opacity: 1
+  }
+  50% {
+      opacity: .5
+  }
+  to {
+      opacity: 1
+  }
+}
+
+@keyframes frameOpacity {
+  0% {
+      opacity: 1
+  }
+  50% {
+      opacity: .5
+  }
+  to {
+      opacity: 1
+  }
+}
