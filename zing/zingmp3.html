@@ -118,7 +118,11 @@
               </div>
             </div>
           </div>
-        </div>
+        </div> <!-- end zm-sidebar-wrapper -->
+
+        <button class="zm-btn btn-expanded button">
+          <i class="icon ic-go-right"></i>
+        </button>
       </aside>
       <!-- zm-sidebar -->
       <header class="zm-header">
@@ -1403,6 +1407,562 @@
       <!-- zm-mainpage -->
 
       <div class="zm-section now-playing-bar">
+        <div class="player-queue player-queue-animation-enter-done">
+          <div class="player-queue__container">
+            <div class="player-queue__header">
+              <div class="level tab-bars">
+                <div class="level-left">
+                  <div class="level-item is-active">
+                    <h6 class="has-text-white queue-list-title">Danh sách phát</h6>
+                  </div>
+
+                  <div class="level-item">
+                    <h6 class="has-text-white">Nghe gần đây</h6>
+                  </div>
+                </div> <!-- end level-left -->
+
+                <div class="level-right">
+                  <div class="level">
+                    <div class="level-item">
+                      <button class="zm-btn zm-tooltip-btn active is-hover-circle button">
+                        <i class="icon ic-clock"></i>
+                      </button>
+                    </div>
+
+                    <div class="level-item">
+                      <span id="queue_menu">
+                        <button class="zm-btn zm-tooltip-btn is-hover-circle button">
+                          <i class="icon ic-more"></i>
+                        </button>
+                      </span>
+                    </div>
+                  </div>
+                </div> <!-- end level-right -->
+              </div>
+            </div> <!-- player-queue__header -->
+
+            <div class="player-queue__scroll">
+              <div class="zm-scroll">
+                <div id="queue-scroll">
+                  <div>
+                    <div class="player-queue__list">
+                      <div>
+                        <div class="list-item media-item full-left">
+                          <div class="media is-active">
+                            <div class="media-left">
+                              <div class="song-thumb">
+                                <figure class="image is-40x40">
+                                  <img src="./images/list/1.jpg" alt="">
+                                </figure>
+
+                                <div class="opacity"></div>
+
+                                <div class="zm-actions-container">
+                                  <div class="zm-box zm-actions">
+                                    <span class="is-hidden">
+                                      <button class="zm-btn zm-tooltip-btn is-hidden is-hover-circle button">
+                                        <i class="icon ic-like"></i>
+                                      </button>
+                                    </span>
+
+                                    <button class="zm-btn action-play  button">
+                                      <i class="icon action-play ic-play"></i>
+                                    </button>
+
+                                    <button class="zm-btn zm-tooltip-btn is-hidden is-hover-circle button">
+                                      <i class="icon ic-more"></i>
+                                    </button>
+                                  </div>
+                                </div>
+                              </div>
+
+                              <div class="card-info">
+                                <div class="title-wrapper">
+                                  <span class="item-title title">
+                                    Người Lạ Thoáng Qua
+                                  </span>
+                                </div>
+
+                                <h3 class="is-one-line subtitle">
+                                  <a href="#">Đinh Tùng Huy</a>, <a class="is-ghost" href="#">AVC</a>
+                                </h3>
+                              </div>
+                            </div> <!-- end media-left -->
+
+                            <div class="media-right">
+                              <div class="level">
+                                <div class="level-item">
+                                  <span>
+                                    <button class="zm-btn zm-tooltip-btn is-hover-circle button">
+                                      <i class="icon ic-like"></i>
+                                    </button>
+                                  </span>
+                                </div>
+
+                                <div class="level-item">
+                                  <button class="zm-btn zm-tooltip-btn is-hover-circle button">
+                                    <i class="icon ic-more"></i>
+                                  </button>
+                                </div>
+                              </div>
+                            </div> <!-- end media-right -->
+                          </div>
+                        </div>
+                      </div>
+
+                      <div>
+                        <div class="queue-recommend">
+                          <div class="header">
+                            <div class="level">
+                              <div class="level-left">
+                                <h3 class="title">Tiếp theo từ Gợi ý</h3>
+                              </div>
+
+                              <div class="level-right">
+                                <button class="zm-btn zm-auto-play-switch pull-left button">
+                                  <span>TỰ ĐỘNG PHÁT</span>
+                                  <i class="icon ic-svg-switch">
+                                    <svg id="Layer_1" x="0px" y="0px" width="24px" height="15px" viewBox="0 0 24 15" xml:space="preserve"><style type="text/css">
+                                      .st1{fill-rule:evenodd;clip-rule:evenodd;fill:#FFFFFF;}
+                                    </style><path id="Rectangle-8" class="st0" d="M16.5,0h-9C3.4,0,0,3.4,0,7.5l0,0C0,11.6,3.4,15,7.5,15h9c4.1,0,7.5-3.4,7.5-7.5l0,0 C24,3.4,20.6,0,16.5,0z"></path><circle id="Oval-2" class="st1" cx="16.5" cy="7.5" r="6.5"></circle></svg>
+                                  </i>
+                                </button>
+
+                                <button class="zm-btn zm-tooltip-btn is-hover-circle button">
+                                  <i class="icon ic-reload"></i>
+                                </button>
+                              </div>
+                            </div>
+                          </div>
+
+                          <div class="list player-queue__list">
+                            <div class="list-item media-item full-left">
+                              <div class="media">
+                                <div class="media-left">
+                                  <div class="song-thumb">
+                                    <figure class="image is-40x40">
+                                      <img src="./images/list/1.jpg" alt="">
+                                    </figure>
+
+                                    <div class="opacity"></div>
+
+                                    <div class="zm-actions-container">
+                                      <div class="zm-box zm-actions">
+                                        <span class="is-hidden">
+                                          <button class="zm-btn zm-tooltip-btn is-hidden is-hover-circle button">
+                                            <i class="icon ic-like"></i>
+                                          </button>
+                                        </span>
+
+                                        <button class="zm-btn action-play  button">
+                                          <i class="icon action-play ic-play"></i>
+                                        </button>
+
+                                        <button class="zm-btn zm-tooltip-btn is-hidden is-hover-circle button">
+                                          <i class="icon ic-more"></i>
+                                        </button>
+                                      </div>
+                                    </div>
+                                  </div> <!-- end song thumb -->
+
+                                  <div class="card-info">
+                                    <div class="title-wrapper">
+                                      <span class="item-title title">Không Sao Em À</span>
+                                    </div>
+
+                                    <h3 class="is-one-line subtitle">
+                                      <a class="is-ghost" href="#">Đinh Tùng Huy</a>, <a class="is-ghost" href="#">ACV</a>
+                                    </h3>
+                                  </div>
+                                </div> <!-- end media-left -->
+
+                                <div class="media-right">
+                                  <div class="level">
+                                    <div class="level-item">
+                                      <button class="zm-btn zm-tooltip-btn is-hover-circle button">
+                                        <i class="icon ic-add-play-now"></i>
+                                      </button>
+                                    </div>
+
+                                    <div class="level-item">
+                                      <button class="zm-btn zm-tooltip-btn is-hover-circle button">
+                                        <i class="icon ic-more"></i>
+                                      </button>
+                                    </div>
+                                  </div>
+                                </div> <!-- end media-right -->
+                              </div>
+                            </div> <!-- end media-item -->
+
+                            <div class="list-item media-item full-left">
+                              <div class="media">
+                                <div class="media-left">
+                                  <div class="song-thumb">
+                                    <figure class="image is-40x40">
+                                      <img src="./images/list/1.jpg" alt="">
+                                    </figure>
+
+                                    <div class="opacity"></div>
+
+                                    <div class="zm-actions-container">
+                                      <div class="zm-box zm-actions">
+                                        <span class="is-hidden">
+                                          <button class="zm-btn zm-tooltip-btn is-hidden is-hover-circle button">
+                                            <i class="icon ic-like"></i>
+                                          </button>
+                                        </span>
+
+                                        <button class="zm-btn action-play  button">
+                                          <i class="icon action-play ic-play"></i>
+                                        </button>
+
+                                        <button class="zm-btn zm-tooltip-btn is-hidden is-hover-circle button">
+                                          <i class="icon ic-more"></i>
+                                        </button>
+                                      </div>
+                                    </div>
+                                  </div> <!-- end song thumb -->
+
+                                  <div class="card-info">
+                                    <div class="title-wrapper">
+                                      <span class="item-title title">Không Sao Em À</span>
+                                    </div>
+
+                                    <h3 class="is-one-line subtitle">
+                                      <a class="is-ghost" href="#">Đinh Tùng Huy</a>, <a class="is-ghost" href="#">ACV</a>
+                                    </h3>
+                                  </div>
+                                </div> <!-- end media-left -->
+
+                                <div class="media-right">
+                                  <div class="level">
+                                    <div class="level-item">
+                                      <button class="zm-btn zm-tooltip-btn is-hover-circle button">
+                                        <i class="icon ic-add-play-now"></i>
+                                      </button>
+                                    </div>
+
+                                    <div class="level-item">
+                                      <button class="zm-btn zm-tooltip-btn is-hover-circle button">
+                                        <i class="icon ic-more"></i>
+                                      </button>
+                                    </div>
+                                  </div>
+                                </div> <!-- end media-right -->
+                              </div>
+                            </div> <!-- end media-item -->
+
+                            <div class="list-item media-item full-left">
+                              <div class="media">
+                                <div class="media-left">
+                                  <div class="song-thumb">
+                                    <figure class="image is-40x40">
+                                      <img src="./images/list/1.jpg" alt="">
+                                    </figure>
+
+                                    <div class="opacity"></div>
+
+                                    <div class="zm-actions-container">
+                                      <div class="zm-box zm-actions">
+                                        <span class="is-hidden">
+                                          <button class="zm-btn zm-tooltip-btn is-hidden is-hover-circle button">
+                                            <i class="icon ic-like"></i>
+                                          </button>
+                                        </span>
+
+                                        <button class="zm-btn action-play  button">
+                                          <i class="icon action-play ic-play"></i>
+                                        </button>
+
+                                        <button class="zm-btn zm-tooltip-btn is-hidden is-hover-circle button">
+                                          <i class="icon ic-more"></i>
+                                        </button>
+                                      </div>
+                                    </div>
+                                  </div> <!-- end song thumb -->
+
+                                  <div class="card-info">
+                                    <div class="title-wrapper">
+                                      <span class="item-title title">Không Sao Em À</span>
+                                    </div>
+
+                                    <h3 class="is-one-line subtitle">
+                                      <a class="is-ghost" href="#">Đinh Tùng Huy</a>, <a class="is-ghost" href="#">ACV</a>
+                                    </h3>
+                                  </div>
+                                </div> <!-- end media-left -->
+
+                                <div class="media-right">
+                                  <div class="level">
+                                    <div class="level-item">
+                                      <button class="zm-btn zm-tooltip-btn is-hover-circle button">
+                                        <i class="icon ic-add-play-now"></i>
+                                      </button>
+                                    </div>
+
+                                    <div class="level-item">
+                                      <button class="zm-btn zm-tooltip-btn is-hover-circle button">
+                                        <i class="icon ic-more"></i>
+                                      </button>
+                                    </div>
+                                  </div>
+                                </div> <!-- end media-right -->
+                              </div>
+                            </div> <!-- end media-item -->
+
+                            <div class="list-item media-item full-left">
+                              <div class="media">
+                                <div class="media-left">
+                                  <div class="song-thumb">
+                                    <figure class="image is-40x40">
+                                      <img src="./images/list/1.jpg" alt="">
+                                    </figure>
+
+                                    <div class="opacity"></div>
+
+                                    <div class="zm-actions-container">
+                                      <div class="zm-box zm-actions">
+                                        <span class="is-hidden">
+                                          <button class="zm-btn zm-tooltip-btn is-hidden is-hover-circle button">
+                                            <i class="icon ic-like"></i>
+                                          </button>
+                                        </span>
+
+                                        <button class="zm-btn action-play  button">
+                                          <i class="icon action-play ic-play"></i>
+                                        </button>
+
+                                        <button class="zm-btn zm-tooltip-btn is-hidden is-hover-circle button">
+                                          <i class="icon ic-more"></i>
+                                        </button>
+                                      </div>
+                                    </div>
+                                  </div> <!-- end song thumb -->
+
+                                  <div class="card-info">
+                                    <div class="title-wrapper">
+                                      <span class="item-title title">Không Sao Em À</span>
+                                    </div>
+
+                                    <h3 class="is-one-line subtitle">
+                                      <a class="is-ghost" href="#">Đinh Tùng Huy</a>, <a class="is-ghost" href="#">ACV</a>
+                                    </h3>
+                                  </div>
+                                </div> <!-- end media-left -->
+
+                                <div class="media-right">
+                                  <div class="level">
+                                    <div class="level-item">
+                                      <button class="zm-btn zm-tooltip-btn is-hover-circle button">
+                                        <i class="icon ic-add-play-now"></i>
+                                      </button>
+                                    </div>
+
+                                    <div class="level-item">
+                                      <button class="zm-btn zm-tooltip-btn is-hover-circle button">
+                                        <i class="icon ic-more"></i>
+                                      </button>
+                                    </div>
+                                  </div>
+                                </div> <!-- end media-right -->
+                              </div>
+                            </div> <!-- end media-item -->
+
+                            <div class="list-item media-item full-left">
+                              <div class="media">
+                                <div class="media-left">
+                                  <div class="song-thumb">
+                                    <figure class="image is-40x40">
+                                      <img src="./images/list/1.jpg" alt="">
+                                    </figure>
+
+                                    <div class="opacity"></div>
+
+                                    <div class="zm-actions-container">
+                                      <div class="zm-box zm-actions">
+                                        <span class="is-hidden">
+                                          <button class="zm-btn zm-tooltip-btn is-hidden is-hover-circle button">
+                                            <i class="icon ic-like"></i>
+                                          </button>
+                                        </span>
+
+                                        <button class="zm-btn action-play  button">
+                                          <i class="icon action-play ic-play"></i>
+                                        </button>
+
+                                        <button class="zm-btn zm-tooltip-btn is-hidden is-hover-circle button">
+                                          <i class="icon ic-more"></i>
+                                        </button>
+                                      </div>
+                                    </div>
+                                  </div> <!-- end song thumb -->
+
+                                  <div class="card-info">
+                                    <div class="title-wrapper">
+                                      <span class="item-title title">Không Sao Em À</span>
+                                    </div>
+
+                                    <h3 class="is-one-line subtitle">
+                                      <a class="is-ghost" href="#">Đinh Tùng Huy</a>, <a class="is-ghost" href="#">ACV</a>
+                                    </h3>
+                                  </div>
+                                </div> <!-- end media-left -->
+
+                                <div class="media-right">
+                                  <div class="level">
+                                    <div class="level-item">
+                                      <button class="zm-btn zm-tooltip-btn is-hover-circle button">
+                                        <i class="icon ic-add-play-now"></i>
+                                      </button>
+                                    </div>
+
+                                    <div class="level-item">
+                                      <button class="zm-btn zm-tooltip-btn is-hover-circle button">
+                                        <i class="icon ic-more"></i>
+                                      </button>
+                                    </div>
+                                  </div>
+                                </div> <!-- end media-right -->
+                              </div>
+                            </div> <!-- end media-item -->
+
+                            <div class="list-item media-item full-left">
+                              <div class="media">
+                                <div class="media-left">
+                                  <div class="song-thumb">
+                                    <figure class="image is-40x40">
+                                      <img src="./images/list/1.jpg" alt="">
+                                    </figure>
+
+                                    <div class="opacity"></div>
+
+                                    <div class="zm-actions-container">
+                                      <div class="zm-box zm-actions">
+                                        <span class="is-hidden">
+                                          <button class="zm-btn zm-tooltip-btn is-hidden is-hover-circle button">
+                                            <i class="icon ic-like"></i>
+                                          </button>
+                                        </span>
+
+                                        <button class="zm-btn action-play  button">
+                                          <i class="icon action-play ic-play"></i>
+                                        </button>
+
+                                        <button class="zm-btn zm-tooltip-btn is-hidden is-hover-circle button">
+                                          <i class="icon ic-more"></i>
+                                        </button>
+                                      </div>
+                                    </div>
+                                  </div> <!-- end song thumb -->
+
+                                  <div class="card-info">
+                                    <div class="title-wrapper">
+                                      <span class="item-title title">Không Sao Em À</span>
+                                    </div>
+
+                                    <h3 class="is-one-line subtitle">
+                                      <a class="is-ghost" href="#">Đinh Tùng Huy</a>, <a class="is-ghost" href="#">ACV</a>
+                                    </h3>
+                                  </div>
+                                </div> <!-- end media-left -->
+
+                                <div class="media-right">
+                                  <div class="level">
+                                    <div class="level-item">
+                                      <button class="zm-btn zm-tooltip-btn is-hover-circle button">
+                                        <i class="icon ic-add-play-now"></i>
+                                      </button>
+                                    </div>
+
+                                    <div class="level-item">
+                                      <button class="zm-btn zm-tooltip-btn is-hover-circle button">
+                                        <i class="icon ic-more"></i>
+                                      </button>
+                                    </div>
+                                  </div>
+                                </div> <!-- end media-right -->
+                              </div>
+                            </div> <!-- end media-item -->
+
+                            <div class="list-item media-item full-left">
+                              <div class="media">
+                                <div class="media-left">
+                                  <div class="song-thumb">
+                                    <figure class="image is-40x40">
+                                      <img src="./images/list/1.jpg" alt="">
+                                    </figure>
+
+                                    <div class="opacity"></div>
+
+                                    <div class="zm-actions-container">
+                                      <div class="zm-box zm-actions">
+                                        <span class="is-hidden">
+                                          <button class="zm-btn zm-tooltip-btn is-hidden is-hover-circle button">
+                                            <i class="icon ic-like"></i>
+                                          </button>
+                                        </span>
+
+                                        <button class="zm-btn action-play  button">
+                                          <i class="icon action-play ic-play"></i>
+                                        </button>
+
+                                        <button class="zm-btn zm-tooltip-btn is-hidden is-hover-circle button">
+                                          <i class="icon ic-more"></i>
+                                        </button>
+                                      </div>
+                                    </div>
+                                  </div> <!-- end song thumb -->
+
+                                  <div class="card-info">
+                                    <div class="title-wrapper">
+                                      <span class="item-title title">Không Sao Em À</span>
+                                    </div>
+
+                                    <h3 class="is-one-line subtitle">
+                                      <a class="is-ghost" href="#">Đinh Tùng Huy</a>, <a class="is-ghost" href="#">ACV</a>
+                                    </h3>
+                                  </div>
+                                </div> <!-- end media-left -->
+
+                                <div class="media-right">
+                                  <div class="level">
+                                    <div class="level-item">
+                                      <button class="zm-btn zm-tooltip-btn is-hover-circle button">
+                                        <i class="icon ic-add-play-now"></i>
+                                      </button>
+                                    </div>
+
+                                    <div class="level-item">
+                                      <button class="zm-btn zm-tooltip-btn is-hover-circle button">
+                                        <i class="icon ic-more"></i>
+                                      </button>
+                                    </div>
+                                  </div>
+                                </div> <!-- end media-right -->
+                              </div>
+                            </div> <!-- end media-item -->
+                          </div>
+                        </div> <!-- end queuue-recommend -->
+                      </div>
+                    </div> <!-- end player-queue__list -->
+
+
+                  </div>
+                </div> <!-- end queue-scroll-->
+
+                <div class="track-horizontal">
+                  <div class="thumb-vertical"></div>
+                </div>
+      
+                <div class="track-vertical">
+                  <div class="thumb-vertical"></div>
+                </div>
+              </div>
+
+            </div> <!-- end player-queue__scroll -->
+          </div>
+        </div> <!-- end player-queue -->
+
         <div class="player-controls clickable">
           <div class="level player-controls__container">
             <div class="player-controls-left level-left">

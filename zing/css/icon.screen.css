@@ -1833,3 +1833,186 @@
 .ic-46-sTV-zingchart-normal:before {
   content: '\e91e';
 }
+
+.icon {
+  line-height: 66%;
+  display: inline-block;
+}
+.icon.ic-gif-playing,
+.icon.ic-gif-playing-auto,
+.icon.ic-gif-playing-white {
+  width: 18px;
+  height: 18px;
+  background-size: 18px;
+  background-repeat: no-repeat;
+  background-position: 50%;
+}
+.icon.ic-gif-playing-white {
+  background-image: url(../images/icon-playing.gif);
+}
+.icon.ic-gif-playing-auto {
+  background-image: var(--img-playing);
+}
+.icon.ic-my-upload,
+.icon.ic-svg-checked,
+.icon.ic-svg-close,
+.icon.ic-svg-close-white,
+.icon.ic-svg-dics-music-icon,
+.icon.ic-svg-music-icon,
+.icon.ic-svg-pause-outline,
+.icon.ic-svg-play,
+.icon.ic-svg-play-block,
+.icon.ic-svg-play-circle,
+.icon.ic-svg-play-outline,
+.icon.ic-svg-video-icon,
+.icon.ic-svg-vip-account,
+.icon.ic-svg-zing-choice {
+  shape-rendering: optimizeSpeed;
+  background-size: cover;
+  background-repeat: no-repeat;
+  object-fit: contain;
+}
+.icon.ic-svg-switch path {
+  fill: var(--purple-primary);
+}
+.icon.ic-svg-switch.zm-switch-off path {
+  fill: #a0a0a0;
+}
+.icon.z-ic-svg {
+  display: inline-block;
+  height: 16px;
+  width: 16px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.icon.ic-svg-fb {
+  background-image: url(../images/facebook.svg);
+}
+.icon.ic-svg-zalo {
+  background-image: url(../images/zalo.svg);
+}
+.icon.ic-svg-add {
+  background-image: url(../images/thumb-add.svg);
+}
+.icon.ic-svg-music-icon {
+  width: 90px;
+  height: 90px;
+  background-image: url(../images/music-icon.svg);
+}
+.icon.ic-svg-dics-music-icon {
+  width: 90px;
+  height: 90px;
+  background-image: url(../images/dics-music-icon..svg);
+}
+.icon.ic-svg-video-icon {
+  width: 90px;
+  height: 90px;
+  background-image: url(../images/video-icon.svg);
+}
+.icon.ic-svg-artist-icon {
+  width: 90px;
+  height: 90px;
+  background-image: url(../images/artist-icon.svg);
+}
+.icon.ic-svg-feed-icon {
+  width: 90px;
+  height: 90px;
+  background-image: url(../images/feed-icon.svg);
+}
+.icon.ic-svg-event-icon {
+  width: 90px;
+  height: 90px;
+  background-image: url(../images/event-icon.svg);
+}
+.icon.ic-svg-close {
+  background-image: url(../images/close.svg);
+  width: 20px;
+  height: 20px;
+}
+.icon.ic-svg-close-white {
+  background-image: url(../images/close-white.svg);
+  width: 20px;
+  height: 20px;
+}
+.icon.ic-svg-vip-label {
+  background-image: url(../images/vip-label.svg);
+  width: 26px;
+  height: 12px;
+}
+.icon.ic-svg-zma-label {
+  background-image: url(../images/zma-label.svg);
+  width: 26px;
+  height: 12px;
+}
+.icon.ic-like-full {
+  color: var(--purple-primary) !important;
+}
+.icon.ic-svg-play-circle {
+  background-image: url(../images/play.svg);
+}
+.icon.ic-zing-choice {
+  width: 67px;
+  height: 48px;
+  background: url(../images/zing-choice.svg)
+    50% / cover no-repeat;
+}
+.icon.ic-zma {
+  width: 48px;
+  height: 48px;
+  background: url(../images/zma.svg)
+    50% / cover no-repeat;
+}
+.icon.ic-chart-btn-play {
+  width: 50px;
+  height: 50px;
+  background: url(../images/chart-btn-play.svg)
+    50% / cover no-repeat;
+}
+.icon.ic-svg-beat {
+  width: 24px;
+  height: 24px;
+  background-image: url(../images/beat-on.svg);
+  background-size: contain;
+  line-height: normal;
+  vertical-align: middle;
+}
+.icon.ic-svg-beat.zm-beat-off {
+  background-image: url(../images/beat-off.svg);
+}
+.icon.ic-svg-bg-mv {
+  width: 60px;
+  height: 30px;
+  background: url(../images/bg-mv-on.svg)
+    50% / cover;
+  line-height: normal;
+  vertical-align: middle;
+}
+.icon.ic-svg-bg-mv.zm-bg-mv-off {
+  background: url(../images/beat-off.svg)
+    50% / cover;
+}
+.icon.ic-z-indie {
+  width: 93px;
+  height: 23px;
+  background: url(../images/icon-indie.svg)
+    50% / cover;
+  line-height: normal;
+}
+.icon.ic-label-vip {
+  width: 25px;
+  height: 12px;
+  background-image: url(../images/label-vip.svg);
+  background-size: contain;
+}
+.icon.ic-label-member {
+  width: 58px;
+  height: 12px;
+  background-image: url(../images/label-member.svg);
+  background-size: contain;
+}
+.icon.ic-label-wait-response {
+  width: 69px;
+  height: 12px;
+  background-image: url(../images/label-wait-response.svg);
+  background-size: contain;
+}

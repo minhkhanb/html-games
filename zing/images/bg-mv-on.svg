@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="60px" height="30px" viewBox="0 0 60 30" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>bg-mv-on</title>
+    <defs>
+        <linearGradient x1="0%" y1="100%" x2="100%" y2="0%" id="linearGradient-1">
+            <stop stop-color="#F508B7" offset="0%"></stop>
+            <stop stop-color="#9023FC" offset="64.624729%"></stop>
+            <stop stop-color="#9102FF" offset="100%"></stop>
+        </linearGradient>
+        <filter id="filter-2">
+            <feColorMatrix in="SourceGraphic" type="matrix" values="0 0 0 0 1.000000 0 0 0 0 1.000000 0 0 0 0 1.000000 0 0 0 1.000000 0"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="kara" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="karaoke-mode-on" transform="translate(-1579.000000, -614.000000)">
+            <g id="bg-mv-on" transform="translate(1579.000000, 614.000000)">
+                <rect id="Rectangle" stroke="#A41EEF" fill-opacity="0.1" fill="#FFFFFF" x="0.5" y="0.5" width="59" height="29" rx="14.5"></rect>
+                <g id="Group" transform="translate(33.000000, 3.000000)">
+                    <circle id="Oval" fill="url(#linearGradient-1)" cx="12" cy="12" r="12"></circle>
+                    <g transform="translate(4.000000, 4.000000)" id="Elements/Icon/M/micro-off" filter="url(#filter-2)">
+                        <g>
+                            <path d="M1.5,8 C1.5,5.36300929 1.76392838,4.6852894 1.76392838,4.6852894 C1.96187389,3.603214 3.00589999,2.66663486 4.11647014,2.60506914 C4.11647014,2.60506914 5.06117029,2.5 8.00000013,2.5 C10.93883,2.5 11.8835301,2.60506914 11.8835301,2.60506914 C12.9848576,2.67186767 14.0576664,3.6071895 14.2360717,4.6852894 C14.2360717,4.6852894 14.5,5.36300929 14.5,8 C14.5,10.6369907 14.2360717,11.3147106 14.2360717,11.3147106 C14.0381263,12.396786 12.9941003,13.3333651 11.8835301,13.3949309 C11.8835301,13.3949309 10.93883,13.5 8.00000013,13.5 C5.06117029,13.5 4.11647014,13.3949309 4.11647014,13.3949309 C3.01514272,13.3281323 1.9423338,12.3928105 1.76392838,11.3147106 C1.76392838,11.3147106 1.5,10.6369907 1.5,8 Z" id="Rectangle2" stroke="#282828" stroke-linecap="round" stroke-linejoin="round"></path>
+                            <path d="M6.5,6.53056231 L6.5,9.45619198 C6.5,9.73233436 6.72385763,9.95619198 7,9.95619198 C7.08851994,9.95619198 7.17545314,9.9326917 7.25191674,9.88809238 L9.75959931,8.42542367 C9.99813131,8.2862939 10.0787127,7.98013854 9.93958297,7.74160653 C9.89612682,7.66710283 9.83413679,7.6051074 9.75963686,7.56164477 L7.25195429,6.09868382 C7.01343438,5.95953331 6.70727201,6.04008812 6.5681215,6.27860803 C6.52350811,6.35508049 6.5,6.44202762 6.5,6.53056231 Z" id="Fill-1" stroke="#282828"></path>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
