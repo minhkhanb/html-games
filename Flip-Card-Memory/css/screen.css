@@ -1,0 +1,73 @@
+.list {
+    position: absolute;
+    top: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 450px;
+    height: 225px;
+    background: #555;
+    z-index: 3;
+}
+
+.box {
+    width: 50%;
+    height: 100%;
+    -webkit-perspective: 1000;
+    perspective: 1000;
+    display: inline-block;
+    position: relative;
+    transition: 400ms;
+}
+
+.box .item {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    transform-style: preserve-3d;
+    -webkit-transform-style: preserve-3d;
+    -moz-transform-style: preserve-3d;
+    transition: 400ms;
+}
+
+.box .item .front,
+.box .item .back {
+    position: absolute;
+    top: 0;
+    left: 0;
+    font: normal 130px/225px 'Arial';
+    text-align: center;
+    box-shadow: inset 0 0 0 1px #333;
+    backface-visibility: hidden;
+    -webkit-backface-visibility: hidden;
+    -moz-backface-visibility: hidden;
+}
+
+.box .item .front {
+    width: 100%;
+    height: 100%;
+    background: #16A085;
+    z-index: 1;
+}
+
+.box .item .back {
+    width: 100%;
+    height: 100%;
+    background: #9882bd;
+    opacity: 0;
+    transition: 400ms;
+}
+
+.box.active {
+    z-index: 2;
+}
+
+.box.active .item .back {
+    z-index: 2;
+    opacity: 1;
+    /*margin-left: -100%;*/
+}
+
+.box.active .item,
+.box .item .back {
+    transform: rotateY(180deg);
+}
